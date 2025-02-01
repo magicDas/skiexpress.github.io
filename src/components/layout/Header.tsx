@@ -32,35 +32,14 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          {/* <div className="flex-shrink-0">
-            <div className="relative group">
-              <div className="magical-gradient relative w-24 h-24 rounded-br-3xl animate-float magical-shine">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <Snowflake className="h-6 w-6 text-white animate-pulse-light mx-auto mb-1" />
-                    <span className="text-white font-bold text-sm tracking-wider block">
-                      SKI
-                    </span>
-                    <span className="text-white/90 text-xs tracking-widest block">
-                      XPRESS
-                    </span>
-                  </div>
+          <div className="flex-shrink-0">            
+              <div className="relative">
+                <div className="logo-container bg-blue-600 p-2 rounded-br-3xl">
+                  <Snowflake className="w-6 h-6 text-white animate-pulse" />
                 </div>
-                <div className="absolute -inset-[1px] magical-gradient blur-sm opacity-50 -z-10 triangle-clip" />
-                <div className="absolute -inset-[3px] magical-gradient blur-md opacity-30 -z-20 triangle-clip group-hover:opacity-40 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-blue-400 opacity-50 rounded-br-3xl animate-shimmer"></div>
               </div>
-            </div>
-          </div> */}
-          <div class="flex-shrink-0">
-            <router-link to="/" class="flex items-center space-x-2">
-              <div class="relative">
-                <div class="logo-container bg-blue-600 p-2 rounded-br-3xl">
-                  <Snowflake class="w-6 h-6 text-white animate-pulse" />
-                </div>
-                <div class="absolute inset-0 bg-blue-400 opacity-50 rounded-br-3xl animate-shimmer"></div>
-              </div>
-              <span class="text-2xl font-light text-gray-600 custom-text">SKI <strong class="font-bold">XPRESS</strong></span>
-            </router-link>
+              <span className="text-2xl font-light text-gray-600 custom-text">SKI <strong class="font-bold">XPRESS</strong></span>
           </div>
 
           {/* Main Navigation */}
