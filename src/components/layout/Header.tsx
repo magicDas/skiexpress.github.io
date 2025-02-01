@@ -32,14 +32,16 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex-shrink-0">            
+          <div className="flex-shrink-0"> 
+            <div className="flex items-center space-x-2">           
               <div className="relative">
                 <div className="logo-container bg-blue-600 p-2 rounded-br-3xl">
                   <Snowflake className="w-6 h-6 text-white animate-pulse" />
                 </div>
                 <div className="absolute inset-0 bg-blue-400 opacity-50 rounded-br-3xl animate-shimmer"></div>
               </div>
-              <span className="text-2xl font-light text-gray-600 custom-text">SKI <strong class="font-bold">XPRESS</strong></span>
+              <span className="text-2xl font-light text-gray-600 custom-text">SKI <strong className="font-bold">XPRESS</strong></span>
+            </div>
           </div>
 
           {/* Main Navigation */}
